@@ -3,7 +3,6 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 04, 2021 at 07:57 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -118,7 +117,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `user_level`, `image`, `status`, `last_login`) VALUES
-(1, 'Avani', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1, 'no_image.png', 1, '2023-01-19 19:45:52'),
+(1, 'Amrutha', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1, 'no_image.png', 1, '2023-01-19 19:45:52'),
 (2, 'Meera', 'special', 'ba36b97a41e7faf742ab09bf88405ac04f99599a', 2, 'no_image.png', 1, '2023-01-18 19:53:26'),
 (3, 'Krish', 'user', '12dea96fec20593566ab75692c9949596833adc9', 3, 'no_image.png', 1, '2023-01-09 19:54:46'),
 (4, 'Akhila', 'user', '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8', 3, 'no_image.png', 1,'2023-02-09 19:54:46' ),
